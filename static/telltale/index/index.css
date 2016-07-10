@@ -2,7 +2,7 @@
 * @Author: jade
 * @Date:   2016-07-05 19:23:05
 * @Last Modified by:   jade
-* @Last Modified time: 2016-07-10 22:31:07
+* @Last Modified time: 2016-07-10 23:43:05
 */
 .mask {
     display: none;
@@ -177,8 +177,6 @@ img {
     color: #D1D1D1
 }
 .page2 {
-    width: 1200px;
-    margin: 0 auto;
 }
 .page2 .desc {
     background-color: #FBFBFB;
@@ -210,7 +208,8 @@ img {
     margin-top: 128px;
 }
 .p3_3_text {
-    margin-left: 140px;
+    margin-left: 10%;
+    width: 40%;
     padding-top: 100px;
 }
 .p3_3_text .title {
@@ -233,9 +232,14 @@ img {
     color: #17CCD5;
 }
 .page3_1{
-    background-image: url('img/p3_3.jpg');
-    background-position: 130% center;
-    background-size: contain;
+    
+}
+.page3_1 .bg{
+    height: 615px;
+    width: 50%;
+    background-image: url('img/p3_3.png');
+    background-position: left center;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 .page4 {
@@ -282,7 +286,7 @@ img {
 }
 .page7 {
     width: 1080px;
-    margin: 12px auto;
+    margin: 20px auto;
 }
 .page7 .clr {
     margin: 0 auto;
@@ -302,6 +306,9 @@ img {
     margin: 0 auto;
     margin-top: 170px;
     padding-bottom: 100px;
+}
+.page8 .s1 .f-l {
+    margin-left: 20px;
 }
 .page8 .f-r{
     margin-top: 40px;
@@ -358,14 +365,17 @@ img {
     padding: 100px 0;
 }
 .page9 .wrap {
-    width: 1200px;
+    width: 895px;
     margin: 0 auto;
 }
 .page9 .f-l {
-    width: 45%;
+    width: 435px;
 }
-.page9 .f-l:first-child {
-    margin-right: 10%;
+.page9 .f-r {
+    width: 335px;
+}
+.page9 .f-r img{
+    margin-left: 20px;
 }
 .page10 {
     position: relative;

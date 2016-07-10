@@ -1,0 +1,31 @@
+{
+  "name": "sri-node",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node server.js --harmony"
+  },
+  "dependencies": {
+    "koa": "*",
+    "koa-generic-session":"*",
+    "koa-redis":"*",
+    "koa-router":"*",
+    "koa-logger":"*",
+    "koa-static": "*",
+    "koa-mount": "*",
+    "koa-views": "^4.1.0",
+    "co": "*",
+    "co-body":"*",
+    "co-busboy": "*",
+    "co-fs": "*",
+    "co-views": "*",
+    "gulp-minify-css": "*",
+    "gulp-uglify": "*",
+    "jade": "~1.11.0",
+    "mobile-agent":"*"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-util": "^3.0.4"
+  }
+}

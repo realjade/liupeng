@@ -1,0 +1,49 @@
+doctype html
+html
+    head
+        title #{title}
+        meta(http-equiv='X-UA-Compatible' content="IE=edge")
+        meta(charset='utf-8')
+        meta(name='Keywords' content='#{title}')
+        meta(name='Description' content='#{title}')
+        meta(name="viewport" content="width=device-width,target-densitydpi=high-dpi,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no")
+        link(rel='stylesheet', href='/static/lib/reset.css')
+        block css
+    body
+        div#layout(class="#{agent.Mobile?'mobile':''}")
+            block header
+                div.header.clr
+                    ul.nav.f-l.clr
+                        li.logo
+                            a(href="/")
+                                img(style="width:50px;height:50px;")(src="/static/telltale/img/logo.png")
+                        li
+                            a(href="#design") Design
+                        li
+                            a(href="#action") Action Camera
+                        li
+                            a(href="#security") Security Camera
+                        li
+                            a(href="#app") App
+                        li
+                            a(href="#tech") Tech Specs
+                        li
+                            a(href="#accessories") Accessories
+                        li
+                            a(href="#gallery") Gallery
+                    div.f-r.free-btn Get Free $50
+            div#main
+                block content
+            block foot
+                div.footer @ 2016 TellTale
+        script.
+            var _hmt = _hmt || [];
+            (function() {
+              var hm = document.createElement("script");
+              hm.src = "//hm.baidu.com/hm.js?3d5a3290f5d86e2d0e58f3377b3f3bee";
+              var s = document.getElementsByTagName("script")[0]; 
+              s.parentNode.insertBefore(hm, s);
+            })();
+
+        script(src='/static/lib/jquery.js')
+        block js        

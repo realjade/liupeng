@@ -1,0 +1,249 @@
+extends layout
+block css
+    link(rel='stylesheet', href='/static/lib/swiper.min.css')
+    link(rel='stylesheet', href='/static/telltale/index/index.css')
+
+block content
+    div#design.page1
+        div(style="width:100%; height: 100%; overflow:hidden;")
+             video(autoplay="" loop="" muted="" id="bgvid")
+                source(src="http://www.mokacam.com/video/oceans-clip.mp4" type="video/mp4")
+        img.desc(src="/static/telltale/index/img/p1_2.png")
+        div.free-wrap
+            div.free-btn Get Free $50
+            div.free-desc Launch in Indiegogo on August 10
+    div#action.page2
+        div.clr
+            div.f-l(style="width:50%")
+                img(src="/static/telltale/index/img/p2_1.jpg")
+                div.desc Outdoor Film
+            div.f-l(style="width:50%")
+                img(src="/static/telltale/index/img/p2_2.jpg")
+                div.desc Home Monitor
+    div#security.page3
+        div.text-center
+            img.p3_1(src="/static/telltale/index/img/p3_1.png")
+            img.p3_2(src="/static/telltale/index/img/p3_2.png")
+            p(style="font-size:30px;margin-top: 30px;padding:0 5px;") “ The Only Camera You Need In Your Life ”
+            p(style="font-size:15px;margin-top:17px;")
+                span The moment you use TellTale, you know you’ve never felt anything like it. 
+                br
+                span 4K video bring your memories to life in a powerfully vivid way. 
+                br
+                span Contest-based monitoring tech protects your life smartly and silently. 
+                br
+                span And that’s just the beginning. Take a deeper look at TellTale, and you’ll find innovation on every level. 
+    div.page3_1
+        div(style="margin-top:100px;").clr
+            div.f-l.p3_3_text
+                p.fs30.title “ Design for Simple Usage ”
+                dl
+                    dt Grab & Go
+                    dd It becomes a action camera, fully charged!
+                dl
+                    dt Snap & Charge
+                    dd Working as a home monitor, charging for next evet.
+                dl
+                    dt Portable Power Bank
+                    dd No more dead batteries! 6 times recording time.
+                div.size.clr
+                    div.f-l
+                        span Width
+                        br
+                        em 42
+                        span mm
+                    div.f-l
+                        span Hidth
+                        br
+                        em 42
+                        span mm
+                    div.f-l
+                        span Thickness
+                        br
+                        em 42
+                        span mm
+                    div.f-l
+                        span Weight
+                        br
+                        em 82
+                        span g
+                a(href='#' style="color:#17CCD5;margin-top:20px;") &gt;&gt;  Learn more details
+    div.page4
+        div.text
+            span.fs30 Amazing Quality
+            br
+            span TellTale is too clear to lose any detail of your wonderful life
+    div.page5
+        div.desc
+            div.wrap.clr
+                div.f-l
+                    em 4K
+                    p 25fps
+                div.f-l
+                    em 1080P
+                    p 60fps
+                div.f-l
+                    em 12M
+                    p photo
+    div.page6
+        span.fs30 Enhanced Capability
+        br
+        span TellTale is too clear to lose any detail of your wonderful life
+        br
+        span It can not only record 4K video, but also support time-lapse video.
+    div.page7
+        div.clr
+            div.f-l(style="width:33%")
+                img(src="/static/telltale/index/img/p7_1.jpg")
+                div.desc 
+                    p(style="font-size:20px") Waterproof
+                    p(style="color:#17CCD5") 3-meter
+            div.f-l(style="width:33%")
+                img(src="/static/telltale/index/img/p7_2.jpg")
+                div.desc
+                    p(style="font-size:20px") Powerful Battery
+                    p(style="color:#17CCD5") 2 hours ( + 8 hours)
+            div.f-l(style="width:33%")
+                img(src="/static/telltale/index/img/p7_3.jpg")
+                div.desc
+                    p(style="font-size:20px") Low-light Mode
+                    p(style="color:#17CCD5") smart exposure tech
+    div.page8
+        div.s1.clr
+            div.f-l
+                img(src="/static/telltale/index/img/p8_1.jpg" style="width:571px;")
+            div.f-r
+                p.fs30 Smart Detection
+                p.desc TellTale only monitors unusual things in your life
+                ul
+                    li
+                        img(src="/static/telltale/index/img/p8_2.png")
+                        span motion detection
+                    li
+                        img(src="/static/telltale/index/img/p8_3.png")
+                        span sound detection
+                    li
+                        img(src="/static/telltale/index/img/p8_4.png" style="margin-left: 6px;width:24px;")
+                        span media compression
+        div.s2.clr
+            div.f-l(style="text-align:right;margin-top: 84px;")
+                p.fs30 Smart Alerts
+                p TellTale is trying to learn your life constantly
+                p When capturing potential exceptions, TellTall will alert you in APP.If sound is from your cat, TellTale will learn the rhythm in its voice, trying to avoid annoying you next time.
+            div.f-l
+                img(src="/static/telltale/index/img/p8_5.jpg")
+            div.f-l.right(style="text-align:left;")
+                p.fs30 Remote Live View
+                p You could view home images in real time
+                p You could open APP to view remotely images that TellTale snapshots in real time (4 pics per sec)
+        div.s3.clr
+            div.f-l
+                p.fs30 Privacy Protection
+                p “ It’s your life, you have the control ”
+                p Put the camera shield in front of camera, making sure it wouldn’t record your private moments.
+                p When camera lens is locked, TellTale will stop working automactically.
+            div.f-l
+                img(src="/static/telltale/index/img/p8_6.jpg")
+    div.page9.clr
+        div.wrap.clr
+            div.f-l
+                p.fs30 Quickly Snap
+                p TellTale assists you to capture every precise and fleeting moment
+                p Main button on top has simplest logic that you don’t need to think when snapping
+                br
+                br
+                img.p9_1(style="width:353px;" src="/static/telltale/index/img/p9_1.png")
+            div.f-l
+                img.p9_2(style="width:283px;" src="/static/telltale/index/img/p9_2.png")
+                br
+                br
+                p No matter in any mode, press button to shoot. The delay is less than 30ms
+    div.page10
+        div.wrap
+            p.fs30 Remote Control
+            p valuable memories in future, no one should absent
+            div.center
+                img.p10_4(src="/static/telltale/index/img/p10_4.png")
+                img.p10_2(src="/static/telltale/index/img/p10_2.png")
+                img.p10_3(src="/static/telltale/index/img/p10_3.png")
+            p Hold the coin-sized remoter and press it! Everybody cheers in the photo, including you.
+            p You can also use APP to shoot, but we recommend you to forget your cellphone and putting full-heart enjoy the happy moment with family or friends.
+    div.page11
+        div.top
+            p.fs30 Baby Mode
+            p TellTale makes it not tough in your baby-care period.
+        div.bottom.clr
+            div.f-l
+                img(src="/static/telltale/index/img/p11_2.png")
+                p All sign lights is closed in state of sleeping monitoring
+            div.f-l
+                img(src="/static/telltale/index/img/p11_3.png")
+                p More sensitive detection and alert
+            div.f-l
+                img(src="/static/telltale/index/img/p11_4.png")
+                p Images quality is still clear in low light room
+            div.f-l
+                img(src="/static/telltale/index/img/p11_5.png")
+                p 32-hour standby time, 3-hour recording time
+    div.page12
+        div.s1
+            p.fs30 Applicaiton
+            div.wrap.clr
+                div.f-l
+                    img(src="/static/telltale/index/img/p12_1.jpg")
+                    p Camera Control
+                div.f-l
+                    img(src="/static/telltale/index/img/p12_2.jpg")
+                    p Timeline Gallery
+                div.f-l
+                    img(src="/static/telltale/index/img/p12_3.jpg")
+                    p Easy Share
+        div.s2
+            p.fs30 Tech Specs
+            a(href='#' style="color:#17CCD5;margin-top:20px;") &gt;&gt;  Learn more details
+            br
+            img(src="/static/telltale/index/img/p12_4.jpg")
+        div.s3
+            p.fs30 Accessories
+            div.wrap.clr
+                div.f-l.p12_5_w
+                    img(src="/static/telltale/index/img/p12_5.jpg")
+                    p Power Line
+                div.f-l.p12_6_w
+                    img(src="/static/telltale/index/img/p12_6.jpg")
+                    p Remoter
+                div.f-l.p12_7_w
+                    img(src="/static/telltale/index/img/p12_7.jpg")
+                    p Battery & Charger
+                div.f-l.p12_8_w
+                    img(src="/static/telltale/index/img/p12_8.jpg")
+                    p Camera
+                div.f-l.p12_9_w
+                    img(src="/static/telltale/index/img/p12_9.jpg")
+                    p Camera Shield
+    div.page13
+        p.fs30.tac Gallery
+        div.wrap
+            div.swiper-container
+                div.swiper-wrapper
+                    div.swiper-slide
+                        img(src="/static/telltale/index/img/p13_1.jpg")
+                    div.swiper-slide
+                        img(src="/static/telltale/index/img/p13_1.jpg")
+                    div.swiper-slide
+                        img(src="/static/telltale/index/img/p13_1.jpg")
+                div.swiper-pagination
+                div.swiper-button-next
+                div.swiper-button-prev
+    div.dialog
+        img.close(src="/static/telltale/index/img/close.png")
+        p.title Get $50 voucher before campaign launches
+        div.input_wrap
+            input(type="text" name="email" placeholder="Input your email address.")
+            span.btn Subscribe
+    div.mask 
+
+block js
+    script(src='/static/lib/swiper.min.js')
+    script(src='/static/lib/swiper.jquery.min.js')
+    script(src='/static/telltale/index/index.js')

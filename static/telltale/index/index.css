@@ -2,7 +2,7 @@
 * @Author: jade
 * @Date:   2016-07-05 19:23:05
 * @Last Modified by:   jade
-* @Last Modified time: 2016-07-10 23:43:05
+* @Last Modified time: 2016-07-10 23:49:31
 */
 .mask {
     display: none;
@@ -237,6 +237,7 @@ img {
 .page3_1 .bg{
     height: 615px;
     width: 50%;
+    max-width: 700px;
     background-image: url('img/p3_3.png');
     background-position: left center;
     background-size: cover;

@@ -2,7 +2,7 @@
 * @Author: jade
 * @Date:   2016-07-05 19:23:10
 * @Last Modified by:   jade
-* @Last Modified time: 2016-07-12 23:27:55
+* @Last Modified time: 2016-07-13 20:20:06
 */
 
 'use strict';
@@ -47,5 +47,14 @@
     });
     $('.p3_2').css({
         'margin-top': p3_1H * 0.6
+    });
+    var p3_1_1W = winW - 600
+    $('.bg.p3_1_1_bg').css({
+        width: p3_1_1W,
+        height: p3_1_1W
+    });
+    $('.p3_3_text').css({
+        'padding-top': (p3_1_1W - 490)/2
     })
+
 })(jQuery);

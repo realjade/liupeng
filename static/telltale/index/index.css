@@ -2,7 +2,7 @@
 * @Author: jade
 * @Date:   2016-07-05 19:23:05
 * @Last Modified by:   jade
-* @Last Modified time: 2016-07-12 23:27:24
+* @Last Modified time: 2016-07-13 20:18:03
 */
 .mask {
     display: none;
@@ -91,7 +91,7 @@
     border-bottom: 1px solid #f6f6f6;
 }
 .footer {
-    width: 1200px;
+    width: 100%;
     height: 70px;
     line-height: 70px;
     text-indent: 75px;
@@ -208,9 +208,9 @@ img {
     margin-top: 128px;
 }
 .p3_3_text {
-    margin-left: 10%;
-    width: 40%;
-    padding-top: 100px;
+    margin-left: 120px;
+    width: 480px;
+    padding-top: 10%;
 }
 .p3_3_text .title {
     margin-bottom: 70px;
@@ -237,7 +237,6 @@ img {
 .page3_1 .bg{
     height: 615px;
     width: 50%;
-    max-width: 700px;
     background-image: url('img/p3_3.png');
     background-position: left center;
     background-size: cover;

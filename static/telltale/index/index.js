@@ -2,11 +2,17 @@
 * @Author: jade
 * @Date:   2016-07-05 19:23:10
 * @Last Modified by:   jade
-* @Last Modified time: 2016-07-13 20:20:06
+* @Last Modified time: 2016-07-14 00:54:31
 */
 
 'use strict';
 (function($){
+    $("img.lazy").lazyload({
+        event : "sporty"
+    });
+    $(window).bind("load", function() {
+        $("img.lazy").trigger("sporty")
+    });
     var winW = $(window).width();
     var winH = $(window).height();
     $('.page1').css({

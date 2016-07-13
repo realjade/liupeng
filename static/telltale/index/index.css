@@ -2,7 +2,7 @@
 * @Author: jade
 * @Date:   2016-07-05 19:23:05
 * @Last Modified by:   jade
-* @Last Modified time: 2016-07-13 20:18:03
+* @Last Modified time: 2016-07-14 00:38:50
 */
 .mask {
     display: none;
@@ -292,7 +292,7 @@ img {
     margin: 0 auto;
 }
 .page7 .f-l {
-    margin-left: 0.5%;
+    margin-left: 5px;
 }
 .page7 .f-l:first-child {
     margin-left: 0;
@@ -507,17 +507,33 @@ img {
     padding-bottom: 56px;
 }
 .page13 img {
-    max-height: 490px;
+    width: 96%;
 }
 .swiper-container {
     width: 100%;
-    padding-top: 50px;
+    margin-top: 50px;
     padding-bottom: 50px;
 }  
 .swiper-slide{
     width: 80%;
+    overflow: hidden;
+    height: 490px;
 }
 .swiper-pagination-bullet {
     width: 15px;
     height: 15px;
-}  
+}
+.swiper-button-next,.swiper-button-prev {
+    background-image: none;
+    top:0;
+    bottom:0;
+    width: 7%;
+    height: auto;
+    cursor: pointer;
+}
+.swiper-button-prev {
+    left: 0;
+}
+.swiper-button-next {
+    right: 0;
+}

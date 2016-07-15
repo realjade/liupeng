@@ -6,6 +6,7 @@ var serve = require('koa-static')
 var koa = require('koa')
 var views = require('koa-views');
 var ua   = require('mobile-agent');
+var config = require('./config');
 var app = koa();
 
 // middleware
@@ -28,8 +29,8 @@ app.use(function *(next) {
     })
     var agent = ua(this.get('User-Agent'));
 
-    console.log(agent)
     this.locals.agent = agent;
+    this.locals.staticUrl = config.staticUrl;
 
     yield next;
 });

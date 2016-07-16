@@ -2,7 +2,7 @@
 * @Author: jade
 * @Date:   2016-07-05 19:23:05
 * @Last Modified by:   jade
-* @Last Modified time: 2016-07-17 00:55:58
+* @Last Modified time: 2016-07-17 00:59:54
 */
 .mask {
     display: none;
@@ -543,8 +543,8 @@ img {
     height: 490px;
 }
 .swiper-pagination-bullet {
-    width: 15px;
-    height: 15px;
+    width: 10px;
+    height: 10px;
 }
 .swiper-button-next,.swiper-button-prev {
     background-image: none;

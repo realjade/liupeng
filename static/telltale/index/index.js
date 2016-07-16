@@ -2,24 +2,31 @@
 * @Author: jade
 * @Date:   2016-07-05 19:23:10
 * @Last Modified by:   jade
-* @Last Modified time: 2016-07-17 01:16:14
+* @Last Modified time: 2016-07-17 01:24:53
 */
 
 'use strict';
 (function($){
+    var inited = false;
     $("img.lazy").lazyload({
         event : "sporty"
     });
     $(window).bind("load", function() {
-        $("img.lazy").trigger("sporty")
+        !inited && $("img.lazy").trigger("sporty");
+        
+        inited = true;
     });
+    setTimeout(function() {
+        !inited && $("img.lazy").trigger("sporty");
+        inited = true;
+    }, 5000)
     var winW = $(window).width();
     var winH = $(window).height();
     if(winW < 1200) {
         winW = 1200;
     }
     $('.page1').css({
-        height: $(window).height() - 78
+        height: $(window).height() - 49
     })
     $(document).ready(function () {
         var swiper = new Swiper('.swiper-container', {

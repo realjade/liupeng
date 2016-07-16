@@ -2,7 +2,7 @@
 * @Author: jade
 * @Date:   2016-07-05 19:23:05
 * @Last Modified by:   jade
-* @Last Modified time: 2016-07-14 01:05:31
+* @Last Modified time: 2016-07-17 00:55:58
 */
 .mask {
     display: none;
@@ -79,7 +79,7 @@
     width: 100%;
 }
 .header {
-    height: 77px;
+    height: 48px;
     overflow: hidden;
     position: fixed;
     top: 0;
@@ -87,7 +87,7 @@
     right: 0;
     min-width: 1200px;
     z-index: 9999;
-    background: rgba(255, 255, 255, 0.975);
+    background: rgba(255, 255, 255, 0.8);
     border-bottom: 1px solid #f6f6f6;
 }
 .footer {
@@ -98,7 +98,8 @@
     background-color: #F7F7F7;
 }
 #main{
-    padding-top: 78px;
+    padding-top: 49px;
+    font-weight: 200;
 }
 .text-center{
     text-align: center;
@@ -112,9 +113,9 @@
 
 .nav li {
     float: left;
-    height: 77px;
-    line-height: 77px;
-    margin-left: 50px;
+    height: 48px;
+    line-height: 48px;
+    margin-left: 56px;
 }
 .nav li.logo {
     margin-top: 13px;
@@ -132,7 +133,7 @@
     line-height: 30px;
     text-align: center;
     color: #17CCD5;
-    margin-top: 22px;
+    margin-top: 7px;
     cursor: pointer;
     margin-right: 50px;
 }
@@ -143,7 +144,7 @@ img {
 }
 .page1 {
     position: relative;
-    margin-bottom: 5px;
+    margin-bottom: 6px;
 }
 .page1 video{
     width: 100%;
@@ -172,9 +173,12 @@ img {
     border-radius: 15px;
     margin-bottom: 10px;
     cursor: pointer;
+    font-weight: bold;
 }
 .page1 .free-desc {
-    color: #D1D1D1
+    color: #D1D1D1;
+    font-weight: bold;
+    font-size: 16px;
 }
 .page2 {
 }
@@ -182,11 +186,14 @@ img {
     background-color: #FBFBFB;
     text-align: center;
     padding: 10px 0;
+    font-size: 20px;
+    font-weight: 200;
 }
 .page3 {
     position: relative;
     width: 1200px;
     margin: 0 auto;
+    font-weight: 200;
 }
 .p3_1 {
     position: absolute;
@@ -214,6 +221,7 @@ img {
 }
 .p3_3_text .title {
     margin-bottom: 70px;
+    font-weight: 200;
 }
 .p3_3_text dt {
     font-size: 27px;
@@ -228,11 +236,13 @@ img {
     margin-right: 50px;
 }
 .p3_3_text em {
-    font-size: 40px;
+    font-weight: 200;
+    font-size: 38px;
     color: #17CCD5;
+    font-style: italic;
 }
 .page3_1{
-    
+    font-weight: 200;
 }
 .page3_1 .bg{
     height: 615px;
@@ -249,7 +259,8 @@ img {
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 536px;
+    height: 582px;
+    font-weight: 200;
 }
 .page4 .text {
     color: #fff;
@@ -259,34 +270,42 @@ img {
     height: 70px;
     top: 50%;
     margin-top: -35px;
+    font-size: 15px;
 }
 .page5 .desc {
-    padding: 20px 0;
+    font-weight: 200;
+    padding: 16px 0;
     background-color: #FBFBFB;
 }
 .page5 .desc .wrap {
     background-color: #FBFBFB;
-    width: 445px;
+    width: 545px;
     margin: 0 auto;
 }
 .page5 .desc .f-l {
-    margin-right: 50px;
+    margin-left: 157px;
     text-align: center;
 }
+.page5 .desc .f-l:first-child{
+    margin-left: 0;
+}
 .page5 .desc em {
-    font-weight: normal;
-    font-size: 48px;
+    font-weight: 200;
+    font-size: 38px;
     color: #17CCD5;
     line-height: 50px;
+    font-style: italic;
 }
 .page6 {
     max-width: 435px;
-    margin: 60px auto 0;
+    margin: 56px auto 0;
     text-align: center;
+    font-weight: 200;
 }
 .page7 {
     width: 1080px;
-    margin: 20px auto;
+    margin: 34px auto;
+    font-weight: 200;
 }
 .page7 .clr {
     margin: 0 auto;
@@ -350,15 +369,16 @@ img {
     margin-top: 290px;
 }
 .page8 .s3 {
-    width: 60%;
+    width: 800px;
     margin: 150px auto 0;
 }
 .page8 .s3 .f-l {
-    width: 45%;
 }
 .page8 .s3 .f-l:first-child {
-    margin-right: 10%;
+    margin-right: 162px;
     margin-top: 40px;
+    width: 318px;
+    text-align: right;
 }
 .page9 {
     background-color: #FBFBFB;
@@ -387,13 +407,13 @@ img {
 }
 .page10 .wrap {
     position: absolute;
-    width: 46%;
+    width: 560px;
     top: 50%;
     left: 50%;
-    margin-left: -23%;
+    margin-left: -280px;
     color: #fff;
     text-align: center;
-    margin-top: -14%;
+    margin-top: -174px;
 }
 .page10 .center {
     position: relative;
@@ -403,19 +423,19 @@ img {
     width: 97px;
     position: absolute;
     top: 26px;
-    left: 180px;
+    left: 144px;
 }
 .page10 .p10_3 {
     width: 97px;
     position: absolute;
     top: 26px;
-    right: 180px;
+    right: 144px;
 }
 .page10  .p10_4 {
     width: 557px;
 }
 .page11{
-    margin-top: 3px;
+    margin-top: 6px;
     position: relative;
     color: #fff;
     background-image: url('img/p11_1.jpg');
@@ -427,12 +447,12 @@ img {
 .page11 .top {
     position: absolute;
     text-align: center;
-    top: 6%;
+    top: 75px;
     width: 100%;
 }
 .page11 .bottom {
     position: absolute;
-    bottom: 6%;
+    bottom: 88px;
     left: 3%;
     right: 0;
 }
@@ -447,7 +467,7 @@ img {
 .page12{
     width: 1200px;
     margin: 0 auto;
-    margin-top: 80px;
+    margin-top: 56px;
 }
 .page12 .s1 {
     text-align: center;
@@ -460,11 +480,14 @@ img {
     margin-left: 148px;
 }
 .page12 .s1 .f-l p{
-    margin-top: 10px;
+    margin-top: 14px;
 }
 .page12 .s2 {
     margin-top: 140px;
     text-align: center;
+}
+.page12 .s2 .desc {
+    margin-left: 16px;
 }
 .page12 .s2 img {
     display: inline-block;

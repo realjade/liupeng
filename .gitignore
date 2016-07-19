@@ -13,6 +13,7 @@ resource
 results
 .idea
 dist
+*.mp4
 
 npm-debug.log
 node_modules

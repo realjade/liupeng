@@ -2,7 +2,7 @@
 * @Author: jade
 * @Date:   2016-07-05 19:23:10
 * @Last Modified by:   jade
-* @Last Modified time: 2016-07-17 01:24:53
+* @Last Modified time: 2016-07-19 23:17:56
 */
 
 'use strict';
@@ -65,7 +65,8 @@
     $('.p3_2').css({
         'margin-top': p3_1H * 0.6
     });
-    var p3_1_1W = winW - 600
+    var p3_1_1W = winW - 600;
+    if(p3_1_1W > 1000) p3_1_1W = 1000;
     $('.bg.p3_1_1_bg').css({
         width: p3_1_1W,
         height: p3_1_1W

@@ -2,7 +2,7 @@
 * @Author: jade
 * @Date:   2016-07-05 19:23:05
 * @Last Modified by:   jade
-* @Last Modified time: 2016-07-17 01:09:46
+* @Last Modified time: 2016-07-19 16:53:33
 */
 .mask {
     display: none;
@@ -17,17 +17,13 @@
 .dialog {
     display: none;
     width: 566px;
-    height: 104px;
-    padding: 60px 80px;
     position: fixed;
     top: 50%;
     left: 50%;
-    margin-top: -112px;
-    margin-left: -368px;
+    margin-top: -116px;
+    margin-left: -283px;
     z-index: 100001;
-    background-color: #fff;
     box-shadow: 0 0 20px #000;
-    border-radius: 5px;
 }
 
 .dialog .close{

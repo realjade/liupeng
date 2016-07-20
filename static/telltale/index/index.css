@@ -2,7 +2,7 @@
 * @Author: jade
 * @Date:   2016-07-05 19:23:05
 * @Last Modified by:   jade
-* @Last Modified time: 2016-07-19 16:53:33
+* @Last Modified time: 2016-07-21 00:07:54
 */
 .mask {
     display: none;
@@ -488,7 +488,6 @@ img {
 .page12 .s2 img {
     display: inline-block;
     margin-top: 74px;
-    width: 830px;
 }
 .page12 .s3 {
     margin-top: 160px;

@@ -4,7 +4,7 @@ block css
     link(rel='stylesheet', href='#{staticUrl}/static/telltale/index/index.css')
 
 block content
-    div#design.page1
+    div.page1
         div(style="width:100%; height: 100%; overflow:hidden;")
              video(autoplay="" loop="" muted="" id="bgvid")
                 source(src="#{staticUrl}/static/telltale/index/video.mp4" type="video/mp4")
@@ -12,7 +12,7 @@ block content
         div.free-wrap
             div.free-btn Get Free $50
             div.free-desc Launch in Indiegogo on August 10
-    div#action.page2
+    div.page2
         div.clr
             div.f-l(style="width:50%")
                 img(src="#{staticUrl}/static/telltale/index/img/p2_1.jpg")
@@ -20,7 +20,7 @@ block content
             div.f-l(style="width:50%")
                 img(src="#{staticUrl}/static/telltale/index/img/p2_2.jpg")
                 div.desc Home Monitor
-    div#security.page3
+    div.page3
         div.text-center
             img.p3_1(src="#{staticUrl}/static/telltale/index/img/p3_1.png")
             img(class="p3_2" src="#{staticUrl}/static/telltale/index/img/p3_2.png")
@@ -33,7 +33,7 @@ block content
                 span Contest-based monitoring tech protects your life smartly and silently. 
                 br
                 span And that’s just the beginning. Take a deeper look at TellTale, and you’ll find innovation on every level. 
-    div.page3_1
+    div.page3_1#design
         div(style="margin-top:142px;").clr
             div.f-l.p3_3_text
                 p.fs30.title “ Design for Simple Usage ”
@@ -67,9 +67,9 @@ block content
                         br
                         em 82
                         span g
-                a(href='#' style="color:#17CCD5;margin-top:20px;font-weight:normal") &gt;&gt;  Learn more details
+                a(href='#detail' style="color:#17CCD5;margin-top:20px;font-weight:normal") &gt;&gt;  Learn more details
             div.f-r.bg.p3_1_1_bg
-    div.page4
+    div.page4#camera
         div.text
             span.fs30 Amazing Quality
             br
@@ -186,7 +186,7 @@ block content
             div.f-l
                 img(src="#{staticUrl}/static/telltale/index/img/p11_5.png")
                 p 32-hour standby time, 3-hour recording time
-    div.page12
+    div.page12#app
         div.s1
             p.fs30 Applicaiton
             div.wrap.clr
@@ -199,13 +199,15 @@ block content
                 div.f-l
                     img(class="lazy" width="214" height="434" data-original="#{staticUrl}/static/telltale/index/img/p12_3.jpg")
                     p Easy Share
-        div.s2
+        div.s2#tech
             div.desc
                 p.fs30 Tech Specs
-                a(href='#' style="color:#17CCD5;margin-top:20px;") &gt;&gt;  Learn more details
+                a(href='#detail' style="color:#17CCD5;margin-top:20px;") &gt;&gt;  Learn more details
             br
             img(class="lazy" width="830" height="406" data-original="#{staticUrl}/static/telltale/index/img/p12_4.jpg")
-        div.s3
+            br
+            img#detail(class="lazy" width="932" height="1491" data-original="#{staticUrl}/static/telltale/index/img/p12_4_1.png")
+        div.s3#accessories
             p.fs30 Accessories
             div.wrap.clr
                 div.f-l.p12_5_w
@@ -223,7 +225,7 @@ block content
                 div.f-l.p12_9_w
                     img(class="lazy" width="98" height="155" data-original="#{staticUrl}/static/telltale/index/img/p12_9.jpg")
                     p Camera Shield
-    div.page13
+    div.page13#gallery
         p.fs30.tac Gallery
         div.wrap
             div.swiper-container

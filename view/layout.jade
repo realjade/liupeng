@@ -23,24 +23,47 @@ html
     body
         div#layout(class="#{agent.Mobile?'mobile':''}")
             block header
-                div.header.clr
-                    ul.nav.f-l.clr
-                        li.logo
+                header.header.clr
+                    if(!agent.Mobile)
+                        ul.nav.f-l.clr
+                            li.logo
+                                a(href="/")
+                                    img(style="width:36px;height:36px;margin-top:-7px;")(src="#{staticUrl}/static/telltale/img/logo.png")
+                            li(style="margin-left: 60px;")
+                                a(href="#design") Design
+                            li
+                                a(href="#camera") Camera
+                            li
+                                a(href="#app") App
+                            li
+                                a(href="#tech") Tech Specs
+                            li
+                                a(href="#accessories") Accessories
+                            li
+                                a(href="#gallery") Gallery
+                        div.f-r.free-btn Get Free $50
+                    else
+                        div.logo.f-l
                             a(href="/")
-                                img(style="width:36px;height:36px;margin-top:-7px;")(src="#{staticUrl}/static/telltale/img/logo.png")
-                        li(style="margin-left: 60px;")
-                            a(href="#design") Design
-                        li
-                            a(href="#camera") Camera
-                        li
-                            a(href="#app") App
-                        li
-                            a(href="#tech") Tech Specs
-                        li
-                            a(href="#accessories") Accessories
-                        li
-                            a(href="#gallery") Gallery
-                    div.f-r.free-btn Get Free $50
+                                    img(style="width:36px;height:36px;margin-top:-7px;")(src="#{staticUrl}/static/telltale/img/logo.png")
+                        div.nav-btn.f-r
+                            span.icon-bar
+                            span.icon-bar
+                            span.icon-bar
+                        nav.nav-dropdown
+                            li
+                                a(href="#design") Design
+                            li
+                                a(href="#camera") Camera
+                            li
+                                a(href="#app") App
+                            li
+                                a(href="#tech") Tech Specs
+                            li
+                                a(href="#accessories") Accessories
+                            li
+                                a(href="#gallery") Gallery
+
             div#main
                 block content
             block foot

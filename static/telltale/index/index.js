@@ -2,7 +2,7 @@
 * @Author: jade
 * @Date:   2016-07-05 19:23:10
 * @Last Modified by:   jade
-* @Last Modified time: 2016-07-19 23:17:56
+* @Last Modified time: 2016-07-31 00:18:28
 */
 
 'use strict';
@@ -22,9 +22,7 @@
     }, 5000)
     var winW = $(window).width();
     var winH = $(window).height();
-    if(winW < 1200) {
-        winW = 1200;
-    }
+    
     $('.page1').css({
         height: $(window).height() - 49
     })
@@ -74,5 +72,9 @@
     $('.p3_3_text').css({
         'padding-top': (p3_1_1W - 490)/2
     })
-
 })(jQuery);
+$(function() {
+    $('.nav-btn').click(function() {
+        $('.nav-dropdown').toggle();
+    });
+});

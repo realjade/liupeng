@@ -11,7 +11,10 @@ block content
         img.desc(src="#{staticUrl}/static/telltale/index/img/p1_2.png")
         div.free-wrap
             div.free-btn Get $50 Credit
-            div.free-desc Coming Soon on Indiegogo
+            div.free-desc
+                img(src="#{staticUrl}/static/telltale/index/img/p1_3.png")
+                img.p1_4(src="#{staticUrl}/static/telltale/index/img/p1_4.png")
+                img(src="#{staticUrl}/static/telltale/index/img/p1_5.png")
     div.page2
         div.clr
             div.f-l(style="width:50%")
@@ -86,6 +89,13 @@ block content
                 div.f-l
                     em 12M
                     p photo
+    div.page5_1.clr
+        div.f-l
+            img.p5_1(src="#{staticUrl}/static/telltale/index/img/p1_3.png")
+            h2 It's Different When It's Live
+            p Never miss another moment with the world's smallest 4K LIVE streaming video camera. 
+        div.f-r
+            img(src="#{staticUrl}/static/telltale/index/img/p4_2.jpg")
     div.page6
         span.fs30 Enhanced Capability
         br
@@ -258,7 +268,10 @@ block content
     div.dialog
         img.close(src="#{staticUrl}/static/telltale/index/img/close.png")
         div#kol_embed_container_109640
-    div.mask 
+    div.mask
+    div.dialog-youtube
+        div.close
+            img(src="#{staticUrl}/static/telltale/index/img/close.png")
 
 block js
     script(src='#{staticUrl}/static/lib/swiper.min.js')

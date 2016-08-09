@@ -186,9 +186,9 @@
 }
 
 .header .free-btn {
-    border: 2px solid #17CCD5;
+    border: 1px solid #17CCD5;
     height: 30px;
-    width: 105px;
+    width: 125px;
     border-radius: 15px;
     line-height: 30px;
     text-align: center;
@@ -285,7 +285,7 @@ img {
 
 .page1 .free-btn {
     display: inline-block;
-    width: 160px;
+    width: 190px;
     height: 36px;
     line-height: 36px;
     background-color: #17CCD5;

@@ -57,7 +57,7 @@
     });
     $('.p1_4').click(function() {
         $('.mask, .dialog-youtube').show();
-        $('.dialog-youtube').append('<iframe id="youtube_frame" width="100%" height="100%" src="https://www.youtube.com/embed/UMHfCfmtp78?autoplay=1" frameborder="0" allowfullscreen></iframe>')
+        $('.dialog-youtube').append('<iframe id="youtube_frame" width="100%" height="100%" src="https://www.youtube.com/embed/CpthTVK9CkE?autoplay=1" frameborder="0" allowfullscreen></iframe>')
     })
 
     //出来p3_1

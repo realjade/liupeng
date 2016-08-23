@@ -896,24 +896,28 @@ img {
 
 .p12_5_w {
     width: 132px;
-    margin-right: 59px;
+    margin-right: 48px;
 }
 
 .p12_6_w {
-    width: 88px;
-    margin-right: 35px;
+    width: 70px;
+    margin-right: 28px;
 }
 
 .p12_7_w {
-    width: 249px;
+    width: 200px;
 }
 
 .p12_8_w {
-    width: 289px;
+    width: 232px;
 }
 
 .p12_9_w {
-    width: 98px;
+    width: 79px;
+}
+
+.p12_10_w {
+    width: 211px;
 }
 
 @media(max-width: 640px) {

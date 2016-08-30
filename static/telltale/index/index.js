@@ -37,9 +37,9 @@
             prevButton: '.swiper-button-prev'
         });
     });
-    $('.free-btn').click(function() {
-        $('.mask, .dialog').show();
-    });
+    // $('.free-btn').click(function() {
+    //     $('.mask, .dialog').show();
+    // });
     $('.dialog .close').click(function() {
         $('.mask, .dialog').hide();
     });
